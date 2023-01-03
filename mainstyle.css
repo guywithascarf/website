@@ -1,0 +1,67 @@
+﻿.link {
+    text-align: right;
+}
+
+body {
+    background-color: #DBF9FC;
+    font-family: 'SF Pro Display, sans-serif'
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    background-color: #00008B;
+    height: 1px;
+    border-color: #00008B;
+}
+
+.dark {
+    background-color: #5A5A5A;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.dark img{
+    flex-wrap: nowrap;
+    max-width: 70vw;
+}
+
+img {
+    border-radius: 10px;
+    background-size:contain;
+}
+
+.books img {
+    width: 100%;
+    max-width: 100px;
+    object-fit: cover;
+    clear: both;
+}
+
+.something {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+a {
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active{
+    color: aquamarine;
+}
